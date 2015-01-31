@@ -12,7 +12,7 @@
 @class TAGContainer;
 
 //Update Container ID
-static NSString *const kContainerId = @"GTM-W9JN7S_v6";
+static NSString *const kContainerId = @"GTM-W9JN7S";
 
 @interface GMDTagService : NSObject
 

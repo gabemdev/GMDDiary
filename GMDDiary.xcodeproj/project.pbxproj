@@ -14,7 +14,7 @@
 		6D4AFEF91A7C635D000D78F6 /* DiaryEntryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D4AFEF81A7C635D000D78F6 /* DiaryEntryViewController.m */; };
 		6D4AFEFF1A7C74E0000D78F6 /* DiaryEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D4AFEFE1A7C74E0000D78F6 /* DiaryEntry.m */; };
 		6D4AFF021A7C7B84000D78F6 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D4AFF011A7C7B84000D78F6 /* DetailViewController.m */; };
-		6DA369D61A7CBC8600E005AC /* GTM-W9JN7S_v6 in Resources */ = {isa = PBXBuildFile; fileRef = 6DA369D41A7CBC8600E005AC /* GTM-W9JN7S_v6 */; };
+		6DA369D61A7CBC8600E005AC /* GTM-W9JN7S in Resources */ = {isa = PBXBuildFile; fileRef = 6DA369D41A7CBC8600E005AC /* GTM-W9JN7S */; };
 		6DA369D71A7CBC8600E005AC /* GTM-W9JN7S_v6.json in Resources */ = {isa = PBXBuildFile; fileRef = 6DA369D51A7CBC8600E005AC /* GTM-W9JN7S_v6.json */; };
 		6DA369DA1A7CC0D300E005AC /* UIViewController+Logging.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA369D91A7CC0D300E005AC /* UIViewController+Logging.m */; };
 		6DC72F131A7C31A300D51287 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DC72F111A7C31A300D51287 /* LaunchScreen.xib */; };
@@ -57,7 +57,7 @@
 		6D4AFEFE1A7C74E0000D78F6 /* DiaryEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiaryEntry.m; sourceTree = "<group>"; };
 		6D4AFF001A7C7B84000D78F6 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		6D4AFF011A7C7B84000D78F6 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		6DA369D41A7CBC8600E005AC /* GTM-W9JN7S_v6 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GTM-W9JN7S_v6"; sourceTree = "<group>"; };
+		6DA369D41A7CBC8600E005AC /* GTM-W9JN7S */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GTM-W9JN7S"; sourceTree = "<group>"; };
 		6DA369D51A7CBC8600E005AC /* GTM-W9JN7S_v6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "GTM-W9JN7S_v6.json"; sourceTree = "<group>"; };
 		6DA369D81A7CC0D300E005AC /* UIViewController+Logging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Logging.h"; sourceTree = "<group>"; };
 		6DA369D91A7CC0D300E005AC /* UIViewController+Logging.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Logging.m"; sourceTree = "<group>"; };
@@ -206,7 +206,7 @@
 		6DC72F2F1A7C329B00D51287 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				6DA369D41A7CBC8600E005AC /* GTM-W9JN7S_v6 */,
+				6DA369D41A7CBC8600E005AC /* GTM-W9JN7S */,
 				6DA369D51A7CBC8600E005AC /* GTM-W9JN7S_v6.json */,
 				6DC72F111A7C31A300D51287 /* LaunchScreen.xib */,
 				6DC72F301A7C329B00D51287 /* Images.xcassets */,
@@ -374,7 +374,7 @@
 				6DA369D71A7CBC8600E005AC /* GTM-W9JN7S_v6.json in Resources */,
 				6DC72F131A7C31A300D51287 /* LaunchScreen.xib in Resources */,
 				6D4AFEF31A7C5BF5000D78F6 /* Main.storyboard in Resources */,
-				6DA369D61A7CBC8600E005AC /* GTM-W9JN7S_v6 in Resources */,
+				6DA369D61A7CBC8600E005AC /* GTM-W9JN7S in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
