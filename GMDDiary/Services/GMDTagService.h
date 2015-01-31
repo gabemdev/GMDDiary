@@ -12,18 +12,23 @@
 @class TAGContainer;
 
 //Update Container ID
-static NSString *const kContainerId = @"GTM-W9JN7S";
+static NSString *const kContainerId = @"GTM-W9JN7S_v6";
 
 @interface GMDTagService : NSObject
 
 + (GMDTagService *)sharedInstance;
+
 
 @property (nonatomic, retain) TAGManager *manager;
 @property (nonatomic, retain) TAGContainer *container;
 
 - (void)pushOpenWithScreen:(NSString *)screen;
 - (void)pushCloseWithScreen:(NSString *)screen;
+
 - (void)pushValue:(NSString *)value withKey:(NSString *)key;
+- (void)pushNewEntry:(NSString *)value;
+
+- (void)trackEntry:(NSString *)entry fromSender:(NSString *)sender;
 
 
 

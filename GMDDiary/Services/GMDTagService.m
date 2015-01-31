@@ -18,8 +18,7 @@
 @interface GMDTagService () <TAGContainerOpenerNotifier>
 
 // Used for sending traffic in the background.
-@property(nonatomic, assign) BOOL okToWait;
-@property(nonatomic, copy) void (^dispatchHandler)(TAGDispatchResult result);
+
 
 
 @end
@@ -74,6 +73,17 @@
     [_manager.dataLayer pushValue:value forKey:key];
     
 }
+
+- (void)pushNewEntry:(NSString *)value {
+    [_manager.dataLayer pushValue:value forKey:@"newEntry"];
+}
+
+- (void)trackEntry:(NSString *)entry fromSender:(NSString *)sender {
+    [_manager.dataLayer push:@{@"event" : @"newEntry",
+                               @"entryName" : entry,
+                               @"screenName": sender}];
+}
+
 
 
 @end

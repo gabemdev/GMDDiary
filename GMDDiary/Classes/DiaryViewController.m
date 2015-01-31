@@ -17,33 +17,47 @@
 
 @implementation DiaryViewController
 
-- (instancetype)init {
+- (id)initWithCategory:(NSString *)category {
     if ((self = [super init])) {
+        self.category = category;
+        [AppDelegate sharedAppDelegate];
+        
+        NSString *adjective = [[[GMDTagService sharedInstance] container] stringForKey:@"Adjective"];
+        self.title = [NSString stringWithFormat:@"%@ %@s", adjective, category];
+        
         self.editing = NO;
         [_tableView reloadData];
     }
     return self;
 }
 
+
 #pragma mark - UIViewController
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.title = @"Diary";
     _titleArray = [NSMutableArray new];
     _descriptionArray = [NSMutableArray new];
     self.editing = NO;
-
+    
+    [[GMDTagService sharedInstance] pushOpenWithScreen:@"DiaryViewController"];
+    [[GMDTagService sharedInstance] pushValue:self.title withKey:@"screenName"];
     // Do any additional setup after loading the view.
 }
 - (void)viewDidAppear:(BOOL)animated {
-    [super viewDidAppear:animated];
-    [[GMDTrackingService sharedInstance] trackEvent:@"Table View Viewed" withValue:nil fromSender:@"DiaryViewController"];
-    [[GMDTrackingService sharedInstance] trackScreen:@"DiaryViewController"];
+    [super viewDidAppear:animated];    
+   
 
 }
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
 
+}
+
+- (void)viewWillDisappear:(BOOL)animated {
+    [super viewWillDisappear:animated];
+    [[GMDTagService sharedInstance] pushCloseWithScreen:@"DiaryMain"];
 }
 
 #pragma mark - UITableViewController
@@ -59,6 +73,9 @@
     DiaryEntry *desc = [_descriptionArray objectAtIndex:indexPath.row];
     
     cell.textLabel.text = entry.titleString;
+    
+    [[GMDTagService sharedInstance] trackEntry:entry.titleString fromSender:@"DiaryViewController"];
+    [[GMDTagService sharedInstance] pushValue:entry.titleString withKey:@"entryName"];
     
     return cell;
 }

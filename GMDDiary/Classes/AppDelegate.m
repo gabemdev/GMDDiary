@@ -12,6 +12,7 @@
 
 @interface AppDelegate ()
 
+
 @end
 
 @implementation AppDelegate
@@ -25,13 +26,13 @@
     [self loadApperance];
     [self loadSharedInstances];
     
+    
     return YES;
 }
 
 - (void)loadSharedInstances {
     NSDictionary *appDefaults = @{kAllowTracking: @(YES)};
     [[NSUserDefaults standardUserDefaults] registerDefaults:appDefaults];
-    [GMDTrackingService sharedInstance];
     [GMDTagService sharedInstance];
 }
 
@@ -72,5 +73,20 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+-(void)application:(UIApplication *)application performFetchWithCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler
+{
+    completionHandler(UIBackgroundFetchResultNewData);
+}
+
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
+    
+    if ([[[GMDTagService sharedInstance] manager] previewWithUrl:url]) {
+        return YES;
+    }
+    
+    // Code to handle other urls.
+    
+    return NO;
+}
 
 @end

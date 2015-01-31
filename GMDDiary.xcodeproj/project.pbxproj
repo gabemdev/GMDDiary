@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6D4AFEE51A7C4A1D000D78F6 /* GTM-W9JN7S_v2.json in Resources */ = {isa = PBXBuildFile; fileRef = 6D4AFEE41A7C4A1D000D78F6 /* GTM-W9JN7S_v2.json */; };
 		6D4AFEE81A7C53D6000D78F6 /* CustomMacroHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D4AFEE71A7C53D6000D78F6 /* CustomMacroHandler.m */; };
 		6D4AFEEB1A7C5567000D78F6 /* CustomTagHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D4AFEEA1A7C5567000D78F6 /* CustomTagHandler.m */; };
 		6D4AFEF11A7C583F000D78F6 /* DiaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D4AFEF01A7C583F000D78F6 /* DiaryViewController.m */; };
@@ -15,6 +14,9 @@
 		6D4AFEF91A7C635D000D78F6 /* DiaryEntryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D4AFEF81A7C635D000D78F6 /* DiaryEntryViewController.m */; };
 		6D4AFEFF1A7C74E0000D78F6 /* DiaryEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D4AFEFE1A7C74E0000D78F6 /* DiaryEntry.m */; };
 		6D4AFF021A7C7B84000D78F6 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D4AFF011A7C7B84000D78F6 /* DetailViewController.m */; };
+		6DA369D61A7CBC8600E005AC /* GTM-W9JN7S_v6 in Resources */ = {isa = PBXBuildFile; fileRef = 6DA369D41A7CBC8600E005AC /* GTM-W9JN7S_v6 */; };
+		6DA369D71A7CBC8600E005AC /* GTM-W9JN7S_v6.json in Resources */ = {isa = PBXBuildFile; fileRef = 6DA369D51A7CBC8600E005AC /* GTM-W9JN7S_v6.json */; };
+		6DA369DA1A7CC0D300E005AC /* UIViewController+Logging.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA369D91A7CC0D300E005AC /* UIViewController+Logging.m */; };
 		6DC72F131A7C31A300D51287 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DC72F111A7C31A300D51287 /* LaunchScreen.xib */; };
 		6DC72F1F1A7C31A300D51287 /* GMDDiaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC72F1E1A7C31A300D51287 /* GMDDiaryTests.m */; };
 		6DC72F321A7C329B00D51287 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC72F2A1A7C329B00D51287 /* AppDelegate.m */; };
@@ -42,7 +44,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6D4AFEE41A7C4A1D000D78F6 /* GTM-W9JN7S_v2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "GTM-W9JN7S_v2.json"; sourceTree = "<group>"; };
 		6D4AFEE61A7C53D6000D78F6 /* CustomMacroHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomMacroHandler.h; sourceTree = "<group>"; };
 		6D4AFEE71A7C53D6000D78F6 /* CustomMacroHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomMacroHandler.m; sourceTree = "<group>"; };
 		6D4AFEE91A7C5567000D78F6 /* CustomTagHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTagHandler.h; sourceTree = "<group>"; };
@@ -56,6 +57,10 @@
 		6D4AFEFE1A7C74E0000D78F6 /* DiaryEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiaryEntry.m; sourceTree = "<group>"; };
 		6D4AFF001A7C7B84000D78F6 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		6D4AFF011A7C7B84000D78F6 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		6DA369D41A7CBC8600E005AC /* GTM-W9JN7S_v6 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GTM-W9JN7S_v6"; sourceTree = "<group>"; };
+		6DA369D51A7CBC8600E005AC /* GTM-W9JN7S_v6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "GTM-W9JN7S_v6.json"; sourceTree = "<group>"; };
+		6DA369D81A7CC0D300E005AC /* UIViewController+Logging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Logging.h"; sourceTree = "<group>"; };
+		6DA369D91A7CC0D300E005AC /* UIViewController+Logging.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Logging.m"; sourceTree = "<group>"; };
 		6DC72EFF1A7C31A200D51287 /* GMDDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GMDDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DC72F121A7C31A300D51287 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		6DC72F181A7C31A300D51287 /* GMDDiaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GMDDiaryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -183,6 +188,8 @@
 				6D4AFEFE1A7C74E0000D78F6 /* DiaryEntry.m */,
 				6D4AFF001A7C7B84000D78F6 /* DetailViewController.h */,
 				6D4AFF011A7C7B84000D78F6 /* DetailViewController.m */,
+				6DA369D81A7CC0D300E005AC /* UIViewController+Logging.h */,
+				6DA369D91A7CC0D300E005AC /* UIViewController+Logging.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -190,7 +197,6 @@
 		6DC72F2D1A7C329B00D51287 /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				6D4AFEE41A7C4A1D000D78F6 /* GTM-W9JN7S_v2.json */,
 				6DC72F2E1A7C329B00D51287 /* main.m */,
 				6DC72F381A7C33DE00D51287 /* GMDDiary-Prefix.pch */,
 			);
@@ -200,6 +206,8 @@
 		6DC72F2F1A7C329B00D51287 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				6DA369D41A7CBC8600E005AC /* GTM-W9JN7S_v6 */,
+				6DA369D51A7CBC8600E005AC /* GTM-W9JN7S_v6.json */,
 				6DC72F111A7C31A300D51287 /* LaunchScreen.xib */,
 				6DC72F301A7C329B00D51287 /* Images.xcassets */,
 				6DC72F311A7C329B00D51287 /* Info.plist */,
@@ -326,6 +334,11 @@
 				TargetAttributes = {
 					6DC72EFE1A7C31A200D51287 = {
 						CreatedOnToolsVersion = 6.1.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					6DC72F171A7C31A300D51287 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -357,10 +370,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D4AFEE51A7C4A1D000D78F6 /* GTM-W9JN7S_v2.json in Resources */,
 				6DC72F351A7C329B00D51287 /* Images.xcassets in Resources */,
+				6DA369D71A7CBC8600E005AC /* GTM-W9JN7S_v6.json in Resources */,
 				6DC72F131A7C31A300D51287 /* LaunchScreen.xib in Resources */,
 				6D4AFEF31A7C5BF5000D78F6 /* Main.storyboard in Resources */,
+				6DA369D61A7CBC8600E005AC /* GTM-W9JN7S_v6 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,6 +396,7 @@
 				6D4AFEEB1A7C5567000D78F6 /* CustomTagHandler.m in Sources */,
 				6D4AFEFF1A7C74E0000D78F6 /* DiaryEntry.m in Sources */,
 				6D4AFEE81A7C53D6000D78F6 /* CustomMacroHandler.m in Sources */,
+				6DA369DA1A7CC0D300E005AC /* UIViewController+Logging.m in Sources */,
 				6DC72F341A7C329B00D51287 /* main.m in Sources */,
 				6DC72F641A7C3F8B00D51287 /* GMDTagService.m in Sources */,
 				6D4AFEF91A7C635D000D78F6 /* DiaryEntryViewController.m in Sources */,

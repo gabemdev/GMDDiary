@@ -25,7 +25,6 @@
 
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
-    [[GMDTrackingService sharedInstance] trackScreen:@"DiaryEntryViewController"];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
@@ -51,7 +50,6 @@
         description.descriptionString = _diaryDescription.text;
         
         [self.delegate entryDetailedViewController:self didAddEntry:entry withDescription:description];
-        [[GMDTrackingService sharedInstance] trackEvent:_diaryTitle.text withValue:nil fromSender:@"DiaryEntryViewController"];
     }
 }
 

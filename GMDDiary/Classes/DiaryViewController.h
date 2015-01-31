@@ -16,5 +16,8 @@
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (nonatomic) NSMutableArray *titleArray;
 @property (nonatomic) NSMutableArray *descriptionArray;
+@property(nonatomic, retain) NSString *category;
+
+- (id)initWithCategory:(NSString *)category;
 
 @end

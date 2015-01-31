@@ -27,8 +27,7 @@
 
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
-    [[GMDTrackingService sharedInstance] trackScreen:@"DetailViewController"];
-    [[GMDTrackingService sharedInstance] trackEvent:_descriptionString withValue:nil fromSender:@"DetailViewController"];
+
 }
 
 

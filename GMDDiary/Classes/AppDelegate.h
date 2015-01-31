@@ -7,13 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "TAGManager.h"
 
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 + (AppDelegate *)sharedAppDelegate;
+
+@property(nonatomic, assign) BOOL okToWait;
+@property(nonatomic, copy) void (^dispatchHandler)(TAGDispatchResult result);
 
 @end
 

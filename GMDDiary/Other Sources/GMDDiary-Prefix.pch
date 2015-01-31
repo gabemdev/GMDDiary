@@ -12,4 +12,5 @@
     #import "CustomMacroHandler.h"
     #import "CustomTagHandler.h"
     #import "GMDKit.h"
+    #import "AppDelegate.h"
 #endif
