@@ -1,0 +1,196 @@
+{
+  "exportFormatVersion": 1.3,
+  "exportTime": "2015-01-30 23:23:53",
+  "containerVersion": {
+    "accountId": "39924877",
+    "containerId": "990947",
+    "containerVersionId": "2",
+    "deleted": false,
+    "container": {
+      "accountId": "39924877",
+      "containerId": "990947",
+      "name": "gmddiary_1",
+      "publicId": "GTM-W9JN7S",
+      "timeZoneCountryId": "US",
+      "timeZoneId": "America/Chicago",
+      "notes": "",
+      "usageContext": [
+        "IOS"
+      ],
+      "fingerprint": "1422659838081"
+    },
+    "macro": [
+      {
+        "accountId": "39924877",
+        "containerId": "990947",
+        "macroId": "1",
+        "name": "app name",
+        "type": "an",
+        "fingerprint": "1422658994680"
+      },
+      {
+        "accountId": "39924877",
+        "containerId": "990947",
+        "macroId": "2",
+        "name": "app version",
+        "type": "av",
+        "fingerprint": "1422658994681"
+      },
+      {
+        "accountId": "39924877",
+        "containerId": "990947",
+        "macroId": "3",
+        "name": "device name",
+        "type": "dn",
+        "fingerprint": "1422658994682"
+      },
+      {
+        "accountId": "39924877",
+        "containerId": "990947",
+        "macroId": "4",
+        "name": "language",
+        "type": "l",
+        "fingerprint": "1422658994682"
+      },
+      {
+        "accountId": "39924877",
+        "containerId": "990947",
+        "macroId": "5",
+        "name": "os version",
+        "type": "ov",
+        "fingerprint": "1422658994683"
+      },
+      {
+        "accountId": "39924877",
+        "containerId": "990947",
+        "macroId": "6",
+        "name": "platform",
+        "type": "p",
+        "fingerprint": "1422658994684"
+      },
+      {
+        "accountId": "39924877",
+        "containerId": "990947",
+        "macroId": "7",
+        "name": "screen resolution",
+        "type": "rs",
+        "fingerprint": "1422658994684"
+      },
+      {
+        "accountId": "39924877",
+        "containerId": "990947",
+        "macroId": "8",
+        "name": "sdk version",
+        "type": "sv",
+        "fingerprint": "1422658994684"
+      },
+      {
+        "accountId": "39924877",
+        "containerId": "990947",
+        "macroId": "9",
+        "name": "true",
+        "type": "c",
+        "parameter": [
+          {
+            "type": "TEMPLATE",
+            "key": "value",
+            "value": "true"
+          }
+        ],
+        "fingerprint": "1422658994685"
+      },
+      {
+        "accountId": "39924877",
+        "containerId": "990947",
+        "macroId": "10",
+        "name": "advertising tracking enabled",
+        "type": "ate",
+        "fingerprint": "1422658994685"
+      },
+      {
+        "accountId": "39924877",
+        "containerId": "990947",
+        "macroId": "11",
+        "name": "app id",
+        "type": "ai",
+        "fingerprint": "1422658994686"
+      },
+      {
+        "accountId": "39924877",
+        "containerId": "990947",
+        "macroId": "12",
+        "name": "event",
+        "type": "e",
+        "fingerprint": "1422658994686"
+      },
+      {
+        "accountId": "39924877",
+        "containerId": "990947",
+        "macroId": "13",
+        "name": "id for advertising",
+        "type": "aid",
+        "fingerprint": "1422658994686"
+      }
+    ],
+    "rule": [
+      {
+        "accountId": "39924877",
+        "containerId": "990947",
+        "ruleId": "1",
+        "name": "Always",
+        "condition": [
+          {
+            "type": "EQUALS",
+            "parameter": [
+              {
+                "type": "TEMPLATE",
+                "key": "arg0",
+                "value": "{{true}}"
+              },
+              {
+                "type": "TEMPLATE",
+                "key": "arg1",
+                "value": "true"
+              }
+            ]
+          }
+        ],
+        "fingerprint": "1422658994687"
+      }
+    ],
+    "tag": [
+      {
+        "accountId": "39924877",
+        "containerId": "990947",
+        "tagId": "1",
+        "name": "one",
+        "type": "ua",
+        "liveOnly": false,
+        "parameter": [
+          {
+            "type": "BOOLEAN",
+            "key": "enableEcommerce",
+            "value": "false"
+          },
+          {
+            "type": "TEMPLATE",
+            "key": "trackingId",
+            "value": "UA-2793234-9"
+          },
+          {
+            "type": "TEMPLATE",
+            "key": "trackType",
+            "value": "TRACK_APPVIEW"
+          },
+          {
+            "type": "BOOLEAN",
+            "key": "anonymizeIp",
+            "value": "false"
+          }
+        ],
+        "fingerprint": "1422659838081"
+      }
+    ],
+    "fingerprint": "1422659843862"
+  }
+}
