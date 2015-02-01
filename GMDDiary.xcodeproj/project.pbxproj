@@ -31,6 +31,8 @@
 		6DC72F501A7C3A6E00D51287 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DC72F4F1A7C3A6E00D51287 /* libz.dylib */; };
 		6DC72F521A7C3A7500D51287 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DC72F511A7C3A7500D51287 /* libsqlite3.0.dylib */; };
 		6DC72F641A7C3F8B00D51287 /* GMDTagService.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC72F631A7C3F8B00D51287 /* GMDTagService.m */; };
+		6DE7F8D21A7DEC73003F52D9 /* GMDCoreDataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE7F8D11A7DEC73003F52D9 /* GMDCoreDataStack.m */; };
+		6DE7F8D81A7DF44F003F52D9 /* Diary.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6DE7F8D61A7DF44F003F52D9 /* Diary.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,6 +102,9 @@
 		6DC72F611A7C3A9300D51287 /* TAGManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAGManager.h; sourceTree = "<group>"; };
 		6DC72F621A7C3F8B00D51287 /* GMDTagService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMDTagService.h; sourceTree = "<group>"; };
 		6DC72F631A7C3F8B00D51287 /* GMDTagService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMDTagService.m; sourceTree = "<group>"; };
+		6DE7F8D01A7DEC73003F52D9 /* GMDCoreDataStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMDCoreDataStack.h; sourceTree = "<group>"; };
+		6DE7F8D11A7DEC73003F52D9 /* GMDCoreDataStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMDCoreDataStack.m; sourceTree = "<group>"; };
+		6DE7F8D71A7DF44F003F52D9 /* Diary.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Diary.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,6 +195,8 @@
 				6D4AFF011A7C7B84000D78F6 /* DetailViewController.m */,
 				6DA369D81A7CC0D300E005AC /* UIViewController+Logging.h */,
 				6DA369D91A7CC0D300E005AC /* UIViewController+Logging.m */,
+				6DE7F8D01A7DEC73003F52D9 /* GMDCoreDataStack.h */,
+				6DE7F8D11A7DEC73003F52D9 /* GMDCoreDataStack.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -212,6 +219,7 @@
 				6DC72F301A7C329B00D51287 /* Images.xcassets */,
 				6DC72F311A7C329B00D51287 /* Info.plist */,
 				6D4AFEF21A7C5BF5000D78F6 /* Main.storyboard */,
+				6DE7F8D61A7DF44F003F52D9 /* Diary.xcdatamodeld */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -400,8 +408,10 @@
 				6DC72F341A7C329B00D51287 /* main.m in Sources */,
 				6DC72F641A7C3F8B00D51287 /* GMDTagService.m in Sources */,
 				6D4AFEF91A7C635D000D78F6 /* DiaryEntryViewController.m in Sources */,
+				6DE7F8D21A7DEC73003F52D9 /* GMDCoreDataStack.m in Sources */,
 				6D4AFF021A7C7B84000D78F6 /* DetailViewController.m in Sources */,
 				6DC72F321A7C329B00D51287 /* AppDelegate.m in Sources */,
+				6DE7F8D81A7DF44F003F52D9 /* Diary.xcdatamodeld in Sources */,
 				6DC72F3E1A7C35DC00D51287 /* UIColor+GMDKitAdditions.m in Sources */,
 				6DC72F441A7C384900D51287 /* GMDTrackingService.m in Sources */,
 			);
@@ -627,6 +637,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6DE7F8D61A7DF44F003F52D9 /* Diary.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6DE7F8D71A7DF44F003F52D9 /* Diary.xcdatamodel */,
+			);
+			currentVersion = 6DE7F8D71A7DF44F003F52D9 /* Diary.xcdatamodel */;
+			path = Diary.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 6DC72EF71A7C31A200D51287 /* Project object */;
 }

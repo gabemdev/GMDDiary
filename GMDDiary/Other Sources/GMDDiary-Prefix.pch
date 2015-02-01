@@ -13,4 +13,6 @@
     #import "CustomTagHandler.h"
     #import "GMDKit.h"
     #import "AppDelegate.h"
+    #import <CoreData/CoreData.h>
+    #import "GMDCoreDataStack.h"
 #endif

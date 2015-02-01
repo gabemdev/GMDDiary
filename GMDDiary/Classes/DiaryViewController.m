@@ -24,9 +24,6 @@
         
         NSString *adjective = [[[GMDTagService sharedInstance] container] stringForKey:@"Adjective"];
         self.title = [NSString stringWithFormat:@"%@ %@s", adjective, category];
-        
-        self.editing = NO;
-        [_tableView reloadData];
     }
     return self;
 }
