@@ -15,4 +15,5 @@
     #import "AppDelegate.h"
     #import <CoreData/CoreData.h>
     #import "GMDCoreDataStack.h"
+    #import <QuartzCore/QuartzCore.h>
 #endif

@@ -18,8 +18,10 @@
 @synthesize delegate;
 
 - (void)viewDidLoad {
-    [super viewDidLoad];    
-    
+    [super viewDidLoad];
+    _diaryDescription.layer.masksToBounds = YES;
+    _diaryDescription.layer.borderColor = [UIColor GMDKitColorWithHex:@"3B7ADA"].CGColor;
+    _diaryDescription.layer.borderWidth = 1.0f;
     // Do any additional setup after loading the view.
 }
 
@@ -30,6 +32,7 @@
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     [[GMDTagService sharedInstance] pushOpenWithScreen:@"DiaryEntryViewController"];
+    [self.navigationController.navigationBar setBarTintColor:[UIColor GMDKitColorWithHex:@"4C4C4C"]];
 }
 
 

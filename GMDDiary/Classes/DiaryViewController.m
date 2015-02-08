@@ -69,6 +69,9 @@
     DiaryEntry *entry = [_titleArray objectAtIndex:indexPath.row];
     DiaryEntry *desc = [_descriptionArray objectAtIndex:indexPath.row];
     
+    cell.textLabel.font = [UIFont fontWithName:@"Avenir-Medium" size:18.0];
+    cell.textLabel.textColor = [UIColor GMDKitColorWithHex:@"4C4C4C"];
+    
     cell.textLabel.text = entry.titleString;
     
     [[GMDTagService sharedInstance] trackEntry:entry.titleString fromSender:@"DiaryViewController"];
@@ -138,8 +141,12 @@
     }
     
     if ([segue.identifier isEqualToString:@"detail"]) {
+        DiaryEntry *entry = [_titleArray objectAtIndex:_tableView.indexPathForSelectedRow.row];
+        DiaryEntry *descr = [_descriptionArray objectAtIndex:_tableView.indexPathForSelectedRow.row];
+        
         DetailViewController *detailVC = segue.destinationViewController;
-        detailVC.titleString = [_titleArray objectAtIndex:_tableView.indexPathForSelectedRow.row];
+        detailVC.titleStr = entry.titleString;
+        detailVC.descriptionString = descr.descriptionString;
 //        detailVC.descriptionString = [_descriptionArray objectAtIndex:_tableView.indexPathForSelectedRow.row];
     }
     

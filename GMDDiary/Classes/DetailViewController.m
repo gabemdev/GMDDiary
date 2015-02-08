@@ -15,12 +15,22 @@
 
 @implementation DetailViewController
 
+- (instancetype)init {
+    if ((self = [super init])) {
+        
+    }
+    return self;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.navigationController.navigationBar.tintColor = [UIColor whiteColor];
     
-    self.title = _titleString;
+    self.title = _titleStr;
     _textView.text = _descriptionString;
+    
+    NSLog(@"Title: %@, Description: %@", _titleStr, _descriptionString);
     
     NSLog(@"Detail View Showed");
 }

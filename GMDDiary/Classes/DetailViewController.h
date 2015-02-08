@@ -10,7 +10,7 @@
 
 @interface DetailViewController : UIViewController
 
-@property (nonatomic) NSString *titleString;
+@property (nonatomic) NSString *titleStr;
 @property (nonatomic) NSString *descriptionString;
 
 @end

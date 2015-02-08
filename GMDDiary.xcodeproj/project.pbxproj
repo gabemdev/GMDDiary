@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D39B07B1A86E69800FE63A2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D39B07A1A86E69800FE63A2 /* QuartzCore.framework */; };
 		6D4AFEE81A7C53D6000D78F6 /* CustomMacroHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D4AFEE71A7C53D6000D78F6 /* CustomMacroHandler.m */; };
 		6D4AFEEB1A7C5567000D78F6 /* CustomTagHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D4AFEEA1A7C5567000D78F6 /* CustomTagHandler.m */; };
 		6D4AFEF11A7C583F000D78F6 /* DiaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D4AFEF01A7C583F000D78F6 /* DiaryViewController.m */; };
@@ -46,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6D39B07A1A86E69800FE63A2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		6D4AFEE61A7C53D6000D78F6 /* CustomMacroHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomMacroHandler.h; sourceTree = "<group>"; };
 		6D4AFEE71A7C53D6000D78F6 /* CustomMacroHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomMacroHandler.m; sourceTree = "<group>"; };
 		6D4AFEE91A7C5567000D78F6 /* CustomTagHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTagHandler.h; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D39B07B1A86E69800FE63A2 /* QuartzCore.framework in Frameworks */,
 				6DC72F521A7C3A7500D51287 /* libsqlite3.0.dylib in Frameworks */,
 				6DC72F501A7C3A6E00D51287 /* libz.dylib in Frameworks */,
 				6DC72F4E1A7C3A6700D51287 /* SystemConfiguration.framework in Frameworks */,
@@ -227,6 +230,7 @@
 		6DC72F371A7C32A900D51287 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6D39B07A1A86E69800FE63A2 /* QuartzCore.framework */,
 				6DC72F511A7C3A7500D51287 /* libsqlite3.0.dylib */,
 				6DC72F4F1A7C3A6E00D51287 /* libz.dylib */,
 				6DC72F4D1A7C3A6700D51287 /* SystemConfiguration.framework */,
